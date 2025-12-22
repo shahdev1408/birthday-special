@@ -209,19 +209,21 @@
             transform: scale(0.98);
         }
 @media screen and (max-width: 768px) {
-            .birthday-text {
-                font-size: 2rem;
+            .birthday-text { 
+                font-size: 8vw; /* 8% of the screen width - scales automatically */
+                white-space: nowrap; /* Forces text to NEVER break into two lines */
                 width: 100%;
-                padding: 0 20px;
+                padding: 0;
             }
-            .romantic-message {
-                font-size: 1rem;
-                top: 65%;
+            .romantic-message { 
+                font-size: 0.9rem;
+                width: 90%; 
+                top: 60%;
             }
             .celebrate-button {
                 bottom: 15%;
-                padding: 12px 26px;
-                font-size: 16px;
+                padding: 12px 25px;
+                font-size: 14px;
             }
         }
 
@@ -647,6 +649,7 @@
     </script>
 </body>
 </html>
+
 
 
 
