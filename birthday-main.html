@@ -208,24 +208,20 @@
         .next-page-button:active {
             transform: scale(0.98);
         }
-
-       @media screen and (max-width: 768px) {
-            .birthday-text { 
-                font-size: 2.5rem; /* Reduced from 3rem */
+@media screen and (max-width: 768px) {
+            .birthday-text {
+                font-size: 2.5rem;
                 width: 100%;
-                padding: 0 15px; /* Adds space so it doesn't touch edges */
-                white-space: normal; /* Allows text to go to two lines if needed */
-                line-height: 1.2;
+                padding: 0 20px;
             }
-            .romantic-message { 
-                font-size: 0.9rem;
-                width: 90%; 
+            .romantic-message {
+                font-size: 1rem;
                 top: 65%;
             }
             .celebrate-button {
-                padding: 12px 25px;
-                font-size: 14px;
-                width: 80%; /* Makes button fit better on mobile */
+                bottom: 15%;
+                padding: 12px 26px;
+                font-size: 16px;
             }
         }
 
@@ -651,4 +647,5 @@
     </script>
 </body>
 </html>
+
 
