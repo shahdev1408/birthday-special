@@ -210,20 +210,28 @@
         }
 @media screen and (max-width: 768px) {
             .birthday-text { 
-                font-size: 8vw; /* 8% of the screen width - scales automatically */
-                white-space: nowrap; /* Forces text to NEVER break into two lines */
+                font-size: 5.5vw; /* Reduced size to guarantee it fits on one line */
+                white-space: nowrap; /* Forces text to stay on one line */
                 width: 100%;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 padding: 0;
+                margin: 0;
             }
+            
             .romantic-message { 
                 font-size: 0.9rem;
                 width: 90%; 
                 top: 60%;
+                padding: 0 10px;
             }
+            
             .celebrate-button {
                 bottom: 15%;
                 padding: 12px 25px;
                 font-size: 14px;
+                width: auto;
+                white-space: nowrap;
             }
         }
 
@@ -649,6 +657,7 @@
     </script>
 </body>
 </html>
+
 
 
 
